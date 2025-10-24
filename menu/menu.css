@@ -1,6 +1,6 @@
 :root {
- --main-color: #ffd000;
-  --secondary-color: #000000;
+  --main-color: #000;
+  --secondary-color: #ffd000;
 }
 
 html {
@@ -54,7 +54,7 @@ body {
 /* start header */
 /* start header */
 .header {
-  background-color: #ffffff;
+  background-color: #ffd000;
 }
 
 .header .container {

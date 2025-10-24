@@ -1,11 +1,12 @@
 :root {
-  --main-color: #ffd000;
-  --secondary-color: #000000;
+  --main-color: #000;
+  --secondary-color: #ffd000;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -16,49 +17,21 @@ body {
   background-color: var(--main-color);
   width: 100%;
 }
+
 .container {
   width: 90%;
-  /* padding-left: 15px; */
-  /* padding-right: 15px; */
-  /* margin-right: auto; */
+
   margin: auto;
 }
 
- @media (max-width: 300px) {
-  /* .container {
-    width: 360px;
-  } */
-}
 
-/* small  */
 
-@media (min-width: 768px) {
-  /* .container {
-    width: 750px;
-  } */
-}
-
-/* medium*/
-
-@media (min-width: 992px) {
-  /* .container {
-    width: 970px;
-  } */
-}
-
-/* large */
-
-@media (min-width: 1200px) {
-  /* .container {
-    width: 900px;
-  } */
-}
 
 /* start header */
 /* start header */
 /* start header */
 .header {
-  background-color: #ffffff;
+  background-color: #ffd000;
 }
 
 .header .container {
@@ -76,13 +49,14 @@ body {
   animation-name: thebest;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  
+
 }
 
 @keyframes thebest {
   0% {
     translate: 0 0;
   }
+
   50% {
     translate: 20px 0;
   }
@@ -102,24 +76,21 @@ body {
 
 @media (max-width: 768px) {
   .header {
-       background-color: #fff;
     height: 50px;
-    padding-bottom: 20px;
-    padding-top: -200px;
-    margin-top: 0px;
-  }
+    margin-top: -5px;
+    padding-bottom: 70px;
+   }
 
   .header img {
-    width: 40px;
+    width: 60px;
   }
 
   .header .container .name {
-    font-size: 14px;
-     color: var(--main-color);
+    font-size: 16px;
   }
 }
 
- 
+
 
 /* start  profile */
 /* start  profile */
@@ -128,7 +99,7 @@ body {
 .profile {
   background-color: var(--main-color);
   text-align: center;
-  color: #000000;
+  color: #ffd000;
   padding-top: 20px;
   padding-bottom: 20px;
   direction: rtl;
@@ -140,10 +111,11 @@ body {
 }
 
 .profile .text {
-  padding-top: 10px;
+  margin-top: -70px;
   font-size: 25px;
-  line-height: 0.1;
+  line-height: 0.9;
 }
+
 @media (max-width: 500px) {
   .profile .text p {
     padding-top: 10px;
@@ -164,7 +136,7 @@ body {
 
 .profile .icon i {
   font-size: 25px;
-  color: #000000;
+  color: #ffd000;
 }
 
 .profile .icon i:hover {
@@ -177,11 +149,11 @@ body {
 /* start   contant */
 
 .contant {
- 
+
   padding-top: 50px;
 
   background-color: var(--main-color);
-
+  color: #ffd000;
   text-align: center;
   padding-bottom: 48px;
 }
@@ -190,7 +162,7 @@ body {
   width: 100%;
   font-size: 35px;
   font-weight: 600;
-  color: #000000;
+  color: #ffd000;
   text-decoration: none;
 }
 
@@ -204,13 +176,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #000000 2px solid;
+  border: #ffd000 2px solid;
   border-radius: 100px;
 }
 
 .contant .col:hover span {
   display: inline;
-  color:  #ffffff;
+  color: #ffd000;
 }
 
 .contant .col:hover {
@@ -219,23 +191,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #000000 2px solid;
+  border: #ffffff 2px solid;
   border-radius: 100px;
 }
 
 .contant .col:hover i {
-  color:  #FFF;
+  color: #FFF;
 }
 
 @media (min-width: 500px) {
   .contant {
     padding-top: 30px;
 
-    background-color: var(--main-color);
 
     text-align: center;
     padding-bottom: 48px;
   }
+
   .contant .col {
     height: 50px;
     width: 65%;
@@ -243,14 +215,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #000000 2px solid;
     border-radius: 100px;
   }
 
   .contant a {
     width: 100%;
     font-size: 20px;
-    color: #000000;
     text-decoration: none;
   }
 
@@ -260,7 +230,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #000000 2px solid;
     border-radius: 100px;
   }
 }
@@ -270,7 +239,6 @@ body {
     padding-left: 0px;
     width: 350px;
 
-    background-color: var(--main-color);
 
     text-align: center;
     padding-bottom: 150px;
@@ -282,22 +250,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #000000 2px solid;
     border-radius: 100px;
   }
 
   .contant a {
     font-size: 15px;
-    color: #000000;
     text-decoration: none;
   }
+
   .contant .col:hover {
     height: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #000000 2px solid;
     border-radius: 100px;
   }
 
@@ -307,14 +273,14 @@ body {
   }
 }
 
-.time{
+.time {
 
-font-size: 30px;
-font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 
 }
 
-.time .container{
+.time .container {
 
   text-align: center;
 }
