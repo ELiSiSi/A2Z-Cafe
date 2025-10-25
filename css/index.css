@@ -314,6 +314,10 @@ body::before {
 }
 
 .time .container {
-
+  color: #ffd000;
   text-align: center;
+
+  span {
+    color: #ffffff;
+  }
 }
