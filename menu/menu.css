@@ -72,7 +72,7 @@ body {
   animation-name: thebest;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  
+
 }
 
 @keyframes thebest {
@@ -125,7 +125,7 @@ body {
     text-align: center;
     color: #ffffff;
     text-align: center;
-   
+
   }
  .title .container{
   text-align: center;
@@ -147,13 +147,13 @@ color: #030303;
 
 /* .menu .container{
   margin-top: 50px;
- 
+
 display: grid;
 
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 
 gap:20px;
- 
+
 }
 
  .container {
@@ -165,13 +165,13 @@ gap:20px;
 
   .menu .container{
   margin-top: 50px;
- 
+
 display: grid;
 
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 
 gap:5px;
- 
+
 }
 
  .container {
@@ -182,7 +182,7 @@ gap:5px;
 /* }
 
 .menu .col{
-  
+
     direction: rtl;
 box-shadow: 0 0 20px 20px rgb(166, 53, 53);
 height: 300px;
@@ -191,19 +191,19 @@ background-color:  var(--secondary-color);
 
 }
 
- 
- 
+
+
 .menu  img{
 
  width: 100%;
  height: 900px;
- 
-} */  
- 
+
+} */
+
 .menu .container{
    margin: auto;
   margin-top: 20px;
- 
+
 
  width: 80%;
  text-align: center;
@@ -214,7 +214,7 @@ padding-bottom: 10px;
   .menu .container  img{
  
  width: 99%;
- 
+
 padding-bottom: 10px;
 
 
@@ -224,9 +224,9 @@ padding-bottom: 10px;
 @media (max-width:500px){
 
   .menu .container   {
- 
+
  width: 99%;
- 
+
 padding-bottom: 10px;
 
 
@@ -234,9 +234,9 @@ padding-bottom: 10px;
 }
 
   .menu .container  img{
- 
+
  width: 99%;
- 
+
 padding-bottom: 10px;
 
 
@@ -249,11 +249,11 @@ padding-bottom: 10px;
  /* start container 22222*/
 
   .container form {
-   
+
  margin-top: -15px;
 margin-bottom: 0px;
 padding-bottom: 5px;
- 
+
 text-align: center;
 
  }
@@ -275,15 +275,15 @@ color: #ffffff;
 
 border: 2px solid black;
 padding: 5px;
- 
- 
+
+
 
  }
- 
+
   .container form a:hover{
 color: var(--secondary-color);
 font-size: 45px;
- 
+
 
  }
 
